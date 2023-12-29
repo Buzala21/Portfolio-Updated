@@ -1,6 +1,9 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
+import About from './about/About'
+import Exp from './exp/exp'
+
 
 // import {FaGithub,FaLinkedin} from "react-icons/fa"
 // import {HiOutlineMail} from "react-icons/hi"
@@ -25,6 +28,8 @@ export default function RootLayout({ children }) {
         <div className='container' >
         <Navbar/>
         {children}
+        <About/>
+        
         {/* <Footer/> */}
         </div>
         {/* </ThemeProvider> */}
