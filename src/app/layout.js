@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import About from './about/About'
 import Skills from './skills/Skills'
+import Contact from './contact/Contact'
 
 
 // import {FaGithub,FaLinkedin} from "react-icons/fa"
@@ -10,7 +11,7 @@ import Skills from './skills/Skills'
 // import {BsFillPersonLinesFill} from "react-icons/bs"
 
 // import Footer from "@/components/footer/Footer"
-// import { ThemeProvider } from "@/context/ThemeContext";
+import { ThemeProvider } from "../components/context/ThemeContext";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,16 +25,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <ThemeProvider> */}
+        <ThemeProvider>
         <div className='container' >
         <Navbar/>
         {children}
         <About/>
         <Skills/>
+        <Contact/>
         
-        {/* <Footer/> */}
+        
+        
         </div>
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
         </body>
     </html>
   )
