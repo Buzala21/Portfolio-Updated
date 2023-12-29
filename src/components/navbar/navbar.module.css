@@ -1,0 +1,42 @@
+.mainContainer{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1rem;
+    background-color: #0a192f;
+    color: #d1d5db;
+    
+}
+
+
+.container{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.socialIcons{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 35%;
+    margin-left: 0;
+}
+
+.face{
+  
+    text-decoration: none;
+    font-size: 30px;
+    color: inherit;
+}
+
+.icon{
+    list-style-type: none;
+    width: 160px;
+    height: 60px;
+
+}
+

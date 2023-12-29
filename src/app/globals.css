@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a192f;
+}
+
+li{
+    padding: 2rem;
+    cursor: pointer;
+}
+
