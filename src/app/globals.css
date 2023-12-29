@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #0a192f;
-}
-
 li{
     padding: 2rem;
     cursor: pointer;
 }
+
+.dark{
+    background-color: #111;
+    color: #bbb;
+  }
+  
+  .light{
+    background-color: #0a192f;
+    color: #111;
+  }
 

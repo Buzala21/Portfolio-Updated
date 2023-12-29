@@ -6,6 +6,8 @@ import {HiOutlineMail} from "react-icons/hi"
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import Logo from "../../../public/logo.png"
 import Image from 'next/image'
+import DarkModeToggle from '../darkModeToggle/DarkModeToggle';
+
 
 function Navbar() {
   return (
@@ -13,6 +15,7 @@ function Navbar() {
       <div>
       <Image className={styles.logo} src={Logo} alt="Logo Image" style={{width:"15%",height:"40%"}} />
       </div>
+      <DarkModeToggle/>
 {/* menu */}
       <div>
         <ul className={styles.container}>
