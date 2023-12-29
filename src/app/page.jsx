@@ -3,10 +3,15 @@ import styles from "./page.module.css"
 
 function page() {
   return (
-    <div>
+    <div name="home">
+
+      <div className={styles.mainContainer} >
+
+      </div>
 
 
-        <h1 className={styles.ehe} >f</h1>
+
+        
     </div>
   )
 }
