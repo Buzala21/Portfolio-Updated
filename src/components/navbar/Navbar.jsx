@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className={styles.mainContainer}>
       <div>
-      <Image src={Logo} alt="Logo Image" style={{width:"20%",height:"50%"}} />
+      <Image className={styles.logo} src={Logo} alt="Logo Image" style={{width:"15%",height:"40%"}} />
       </div>
 {/* menu */}
       <div>
