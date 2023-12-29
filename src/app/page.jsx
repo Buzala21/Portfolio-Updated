@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
 import {HiArrowNarrowRight } from 'react-icons/hi'
-import About from './about/About'
+
 
 function page() {
   return (
