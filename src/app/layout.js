@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import About from './about/About'
-import Exp from './exp/exp'
+import Skills from './skills/Skills'
 
 
 // import {FaGithub,FaLinkedin} from "react-icons/fa"
@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         {children}
         <About/>
+        <Skills/>
         
         {/* <Footer/> */}
         </div>
